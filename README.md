@@ -21,7 +21,7 @@ kubectl apply -f ./deployment.yaml
 
 ##### Deploy service for loadbalance and api 
 ```bash
-kubectl apply -f ./service.yamls
+kubectl apply -f ./service.yaml
 ```
 
 ### Example
