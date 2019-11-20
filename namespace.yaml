@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: goapp-deploy
+  labels:
+    name: micro-namespace
