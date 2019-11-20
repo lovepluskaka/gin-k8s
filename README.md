@@ -14,6 +14,11 @@ go mod download
 ./build.sh 
 ```
 
+##### Create namespaces
+```bash
+kubectl apply -f ./namespace.yaml
+```
+
 ##### Deploy backend service 
 ```bash
 kubectl apply -f ./deployment.yaml
